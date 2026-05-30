@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^musclesteroids.info [NC,OR]
+RewriteCond %{HTTP_HOST} ^musclesteroids.info [NC]
+RewriteRule ^(.*)$ https://metanerus.net/$1 [L,R=301]
